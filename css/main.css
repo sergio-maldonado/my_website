@@ -1,0 +1,37 @@
+body {
+    background-color: #f7f1f3;
+}
+
+header {
+    background-image: url("../assets/images/header.JPG");
+    padding: 5px;
+}
+
+header img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+header h1 {
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 3%;
+}
+
+header nav a {
+    color: white;
+}
+
+main h2 {
+    color: chartreuse;
+    font-style: italic;
+}
