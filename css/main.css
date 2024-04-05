@@ -1,51 +1,15 @@
+:root {
+  --color-primario: #051c61;
+}
+
+.color1 {
+  color: var(--color-primario);
+}
+
 body {
     background-color: #f7f1f3;
 }
 
 header {
-    /* background-image: url("../assets/images/header.JPG"); */
-    background-color: rgb(5, 28, 97);
-    padding: 5px;
+  background-color: var(--color-primario);
 }
-
-header img {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-}
-
-header h1 {
-    color: antiquewhite;
-    font-weight: bold;
-}
-
-header nav {
-    text-align: right;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-right: 3%;
-}
-
-header nav a {
-    color: white;
-}
-
-main h2 {
-    color: black;
-    font-style: italic;
-}
-
-.img-people {
-    width: 200px;
-    height: 200px;
-}
-
-.icon-font {
-    font-size: 20px;
-}
-
-/* .icon-font:hover {
-    color: red;
-} */
