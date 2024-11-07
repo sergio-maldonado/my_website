@@ -17,7 +17,7 @@ class Header extends HTMLElement {
       <span class="text-white fs-4">
         Sergio Maldonado Villanueva
       </span>
-      <nav>
+      <nav class="d-none d-lg-block">
         <ul class="d-flex">
           <li>
             <a href="/" class="text-decoration-none text-white">
@@ -51,6 +51,7 @@ class Header extends HTMLElement {
           </li>
         </ul>
       </nav>
+      <i class="bi bi-list text-white fs-3 d-lg-none" role="button" tabindex="0"></i>
     `
     // shadow.appendChild(wrapper)
     this.appendChild(wrapper)

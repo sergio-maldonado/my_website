@@ -19,3 +19,9 @@ ul {
 .bg-1 {
   background-color: var(--color-primario);
 }
+
+.btn-icono {
+  background: transparent;
+  border: none;
+  
+}
