@@ -51,9 +51,55 @@ class Header extends HTMLElement {
           </li>
         </ul>
       </nav>
-      <i class="bi bi-list text-white fs-3 d-lg-none" role="button" tabindex="0"></i>
+      <i id="menu-burger" class="bi bi-list text-white fs-3 d-lg-none" role="button" tabindex="0"></i>
+      <div id="menu-cel" class="position-fixed top-0 left-0 w-75 h-100 bg-1 p-3 d-none">
+        <nav>
+          <ul>
+            <li class="mb-3">
+              <a href="/" class="text-decoration-none text-white fs-3">
+                Home
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="/people" class="text-decoration-none text-white fs-3">
+                People
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="/research.html" class="text-decoration-none text-white fs-3">
+                Research
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="/publications.html" class="text-decoration-none text-white fs-3">
+                Publications
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="/teaching.html" class="text-decoration-none text-white fs-3">
+                Teaching
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="/join-us.html" class="text-decoration-none text-white fs-3">
+                Join us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     `
     // shadow.appendChild(wrapper)
+    const btn = wrapper.querySelector("#menu-burger")
+    const menuCel = wrapper.querySelector("#menu-cel")
+    btn.onclick = () => {
+      const hasDnone = menuCel.classList.contains("d-none")
+      if (hasDnone) {
+        menuCel.classList.remove("d-none")
+      } else {
+        menuCel.classList.add("d-none")
+      }
+    }
     this.appendChild(wrapper)
   }
 }
