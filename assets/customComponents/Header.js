@@ -15,7 +15,7 @@ class Header extends HTMLElement {
     )
     wrapper.innerHTML = `
       <span class="text-white fs-4">
-        Sergio Maldonado Villanueva
+        Sergio Maldonado's Lab
       </span>
       <nav class="d-none d-lg-block">
         <ul class="d-flex">
