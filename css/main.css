@@ -30,3 +30,8 @@ ul {
 .left-0 {
   left: 0;
 }
+
+.home-carousel {
+  max-width: 600px;
+  margin: auto;
+}
