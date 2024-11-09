@@ -20,32 +20,32 @@ class Header extends HTMLElement {
       <nav class="d-none d-lg-block">
         <ul class="d-flex">
           <li>
-            <a href="/" class="text-decoration-none text-white">
+            <a href="." class="text-decoration-none text-white">
               Home
             </a>
           </li>
           <li class="ms-3">
-            <a href="/people" class="text-decoration-none text-white">
+            <a href="./people.html" class="text-decoration-none text-white">
               People
             </a>
           </li>
           <li class="ms-3">
-            <a href="/research.html" class="text-decoration-none text-white">
+            <a href="./research.html" class="text-decoration-none text-white">
               Research
             </a>
           </li>
           <li class="ms-3">
-            <a href="/publications.html" class="text-decoration-none text-white">
+            <a href="./publications.html" class="text-decoration-none text-white">
               Publications
             </a>
           </li>
           <li class="ms-3">
-            <a href="/teaching.html" class="text-decoration-none text-white">
+            <a href="./teaching.html" class="text-decoration-none text-white">
               Teaching
             </a>
           </li>
           <li class="ms-3">
-            <a href="/join-us.html" class="text-decoration-none text-white">
+            <a href="./join-us.html" class="text-decoration-none text-white">
               Join us
             </a>
           </li>
@@ -56,32 +56,32 @@ class Header extends HTMLElement {
         <nav>
           <ul>
             <li class="mb-3">
-              <a href="/" class="text-decoration-none text-white fs-3">
+              <a href="./" class="text-decoration-none text-white fs-3">
                 Home
               </a>
             </li>
             <li class="mb-3">
-              <a href="/people" class="text-decoration-none text-white fs-3">
+              <a href="./people" class="text-decoration-none text-white fs-3">
                 People
               </a>
             </li>
             <li class="mb-3">
-              <a href="/research.html" class="text-decoration-none text-white fs-3">
+              <a href="./research.html" class="text-decoration-none text-white fs-3">
                 Research
               </a>
             </li>
             <li class="mb-3">
-              <a href="/publications.html" class="text-decoration-none text-white fs-3">
+              <a href="./publications.html" class="text-decoration-none text-white fs-3">
                 Publications
               </a>
             </li>
             <li class="mb-3">
-              <a href="/teaching.html" class="text-decoration-none text-white fs-3">
+              <a href="./teaching.html" class="text-decoration-none text-white fs-3">
                 Teaching
               </a>
             </li>
             <li class="mb-3">
-              <a href="/join-us.html" class="text-decoration-none text-white fs-3">
+              <a href="./join-us.html" class="text-decoration-none text-white fs-3">
                 Join us
               </a>
             </li>
